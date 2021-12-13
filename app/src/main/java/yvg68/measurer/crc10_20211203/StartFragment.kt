@@ -5,6 +5,8 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Button
+import android.widget.TextView
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -25,7 +27,9 @@ class StartFragment : Fragment() {
     ): View? {
         // Inflate the layout for this fragment
         val view = inflater.inflate(R.layout.fragment_start, container, false)
-
+        val editText: TextView = view.findViewById(R.id.edit_text_fragment)
+        val textView: TextView = view.findViewById(R.id. text_view_fragment)
+        val button:Button = view.findViewById(R.id.button_ok)
 
        return view
     }
