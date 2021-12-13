@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StartFragment">
+
+    <EditText
+        android:id="@+id/edit_text_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="48sp"
+        android:layout_marginTop="240sp"
+        android:layout_marginRight="48sp"
+        android:minHeight="48dp"
+        android:text="enter login"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/text_view_fragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/hello_blank_fragment" />
+
+    <Button
+        android:id="@+id/button_ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="96sp"
+        android:text="OK" />
+
+</FrameLayout>
