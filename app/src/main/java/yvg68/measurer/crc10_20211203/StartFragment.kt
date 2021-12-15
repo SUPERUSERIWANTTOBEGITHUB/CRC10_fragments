@@ -1,5 +1,5 @@
 package yvg68.measurer.crc10_20211203
-
+//
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
