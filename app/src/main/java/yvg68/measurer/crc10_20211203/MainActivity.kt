@@ -8,9 +8,9 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val startFragment = StartFragment()
-        supportFragmentManager
-            .beginTransaction()
+        val startFragment = StartFragment()                        //определяет какой фрагмент
+        supportFragmentManager                                  //будет стартовым - startFragment и
+            .beginTransaction()                             //откуда его грузить-fragment_container
             .replace(R.id.fragment_container, startFragment)
             .commit()
     }
